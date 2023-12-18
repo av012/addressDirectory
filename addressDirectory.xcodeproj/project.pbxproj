@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0DB5C53C2B2CEA8C00246D6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5C53B2B2CEA8C00246D6E /* main.cpp */; };
+		0DB5C5452B2CF41E00246D6E /* Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5C5442B2CF41E00246D6E /* Contact.cpp */; };
+		0DB5C5482B2CF4BF00246D6E /* AddressBook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5C5472B2CF4BF00246D6E /* AddressBook.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		0DB5C5382B2CEA8C00246D6E /* addressDirectory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = addressDirectory; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB5C53B2B2CEA8C00246D6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0DB5C5432B2CF3F800246D6E /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		0DB5C5442B2CF41E00246D6E /* Contact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Contact.cpp; sourceTree = "<group>"; };
+		0DB5C5462B2CF49500246D6E /* AddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		0DB5C5472B2CF4BF00246D6E /* AddressBook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddressBook.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +49,7 @@
 			children = (
 				0DB5C53A2B2CEA8C00246D6E /* addressDirectory */,
 				0DB5C5392B2CEA8C00246D6E /* Products */,
+				0DB5C5422B2CEE8C00246D6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +65,19 @@
 			isa = PBXGroup;
 			children = (
 				0DB5C53B2B2CEA8C00246D6E /* main.cpp */,
+				0DB5C5432B2CF3F800246D6E /* Contact.h */,
+				0DB5C5442B2CF41E00246D6E /* Contact.cpp */,
+				0DB5C5462B2CF49500246D6E /* AddressBook.h */,
+				0DB5C5472B2CF4BF00246D6E /* AddressBook.cpp */,
 			);
 			path = addressDirectory;
+			sourceTree = "<group>";
+		};
+		0DB5C5422B2CEE8C00246D6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB5C5452B2CF41E00246D6E /* Contact.cpp in Sources */,
+				0DB5C5482B2CF4BF00246D6E /* AddressBook.cpp in Sources */,
 				0DB5C53C2B2CEA8C00246D6E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +198,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -233,6 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
